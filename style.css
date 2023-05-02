@@ -1,0 +1,94 @@
+/* Code CSS de la page principale du site des Merveilles */
+
+
+header h1{
+    background-color: #f6dfb0;
+}
+#debut{
+    background-color: #f5f5dc;
+    border: 2px solid #a55a30;
+    border-radius: 2px;    
+}
+
+
+/* Sommaire*/
+
+.bouton:hover{
+    text-shadow: 1px 2px black;
+}
+
+
+
+
+/* 1er Article : Les merveilles antiques */
+
+#merveilles_antiques{
+    background-color: #34e1d0;
+}
+#art_merveilles_antiques{
+    background-color: #adeeef;
+}
+#art_merveilles_antiques ul li{
+    list-style-image:url(../Projet_Les_Merveilles/img/image_etoile.png) ; 
+}
+
+li a img:hover{
+    opacity: 0.5;
+}
+
+
+/* 2e Article : Les merveilles modernes */
+
+#merveilles_modernes{
+    background-color: #23cf21;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+}
+#art_merveilles_modernes{
+    background-color: #94fd94;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+}
+span{
+    font-weight: bold; /* Doit mettre en gras "patrimoine mondial par l'Unesco" MAIS ne fonctionne pas*/
+}
+
+
+
+/* Tableau */
+
+#tableau_merveilles{
+    background-color: #f6dfb0;
+}
+table,tr{
+    border: 2px solid;
+    background-color: #f5f5dc;
+}
+.tableau_couleur {
+    background-color: #e3e39c;
+}
+table,td,th{
+    border: 2px solid;
+}
+/* Vidéos*/
+
+#video{
+    background-color: #f6dfb0;
+}
+
+
+footer h2{
+    background-color: #f6dfb0;
+}
+footer{
+    background-color: #f5f5dc;
+    border: 2px solid #a55a30;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
